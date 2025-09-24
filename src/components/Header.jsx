@@ -21,7 +21,7 @@ const Header = () => {
       
       <div className='container mx-auto my-auto'>
       {/* Contenu après navbar */}
-      <div className='flex-1 pl-6 md:pl-8 lg:pl-24 justify-center pt-20 md:pt-24 relative z-10 mt-20'>
+      <div className='flex-1 pl-6 md:pl-8 lg:pl-24 justify-center pt-20 md:pt-24 relative z-10 mt-20 mb-10'>
         <div className='text-start max-w-4xl mb-30'>
           <h1 className='text-3xl md:text-[35px] font-semibold text-white drop-shadow-lg animate-fade-in-up'>
             <strong>Votre évasion</strong>
@@ -35,14 +35,11 @@ const Header = () => {
             Blu Azur vous invite à découvrir le charme de Saint-Raphaël, une destination d'exception nichée entre Cannes et Saint-Tropez. Nos appartements tout équipés, situés dans un domaine privé sécurisé, offrent un cadre verdoyant et paisible, à quelques pas de la marina de Santa Lucia, des plages de sable fin et du centre-ville animé. Profitez d'un séjour alliant confort, sérénité et élégance au cœur de la Riviera française !
           </p>
         </div>
-      </div>
-      </div>
 
-  <div className='container mx-auto mx-2 md:mx-4 lg:ml-24 mb-10 z-0'>
         {/* Footer containers améliorés */}
         <div className='flex flex-col md:flex-row justify-between items-center w-full gap-8'>
           {/* Container gauche - Bouton avec animation */}
-          <div className='flex lg:pl-10 lg:mr-10'>
+          <div className='flex-shrink-0'>
             <button
               className='group border-2 border-white bg-transparent text-white px-6 py-3 rounded-full flex items-center gap-3 transition-all duration-300 hover:bg-white hover:text-black hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2'
               aria-label='Réservez dès maintenant votre séjour !'
@@ -91,7 +88,8 @@ const Header = () => {
             </div>
           </div>
         </div>
-        </div>
+      </div>
+      </div>
 
       {/* Styles CSS pour les animations du texte après navbar */}
       <style jsx>{`
