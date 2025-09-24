@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 const Activites2 = () => {
   return (
     <div 
-      className="flex flex-col items-center w-full min-h-screen overflow-hidden relative p-14 md:px-20 lg:px-32"
+      className="flex flex-col items-center w-full overflow-hidden relative p-14 md:px-20 lg:px-32"
       id="activites"
       style={{
         backgroundImage: `url(${assets.background_section2})`,
@@ -29,7 +29,7 @@ const Activites2 = () => {
       {/* Section 2: Images avec descriptions */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-16">
         <div className="flex flex-col items-center animate-fade-in-up animation-delay-900">
-          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center">
+          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-xl cursor-pointer">
             <img src={assets.img_icon1_section2} alt="Nage" className="w-12 h-12 object-contain" />
           </div>
           <p className="text-xs text-white text-center font-medium">Sports,</p>
@@ -37,7 +37,7 @@ const Activites2 = () => {
         </div>
 
         <div className="flex flex-col items-center animate-fade-in-up animation-delay-1100">
-          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center">
+          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-xl cursor-pointer">
             <img src={assets.img_icon2_section2} alt="Rodéo" className="w-12 h-12 object-contain" />
           </div>
           <p className="text-xs text-white text-center font-medium">Randonnées et</p>
@@ -45,7 +45,7 @@ const Activites2 = () => {
         </div>
 
         <div className="flex flex-col items-center animate-fade-in-up animation-delay-1300">
-          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center">
+          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-xl cursor-pointer">
             <img src={assets.img_icon3_section2} alt="Casino" className="w-12 h-12 object-contain" />
           </div>
           <p className="text-xs text-white text-center font-medium">Casino et</p>
@@ -53,7 +53,7 @@ const Activites2 = () => {
         </div>
 
         <div className="flex flex-col items-center animate-fade-in-up animation-delay-1500">
-          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center">
+          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-xl cursor-pointer">
             <img src={assets.img_icon4_section2} alt="Village" className="w-12 h-12 object-contain" />
           </div>
           <p className="text-xs text-white text-center font-medium">Villages perchés</p>
@@ -61,7 +61,7 @@ const Activites2 = () => {
         </div>
 
         <div className="flex flex-col items-center animate-fade-in-up animation-delay-1700">
-          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center">
+          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-xl cursor-pointer">
             <img src={assets.img_icon5_section2} alt="Golf" className="w-12 h-12 object-contain" />
           </div>
           <p className="text-xs text-white text-center font-medium">Un paradis</p>
@@ -69,7 +69,7 @@ const Activites2 = () => {
         </div>
 
         <div className="flex flex-col items-center animate-fade-in-up animation-delay-1900">
-          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center">
+          <div className="bg-white rounded-full p-4 shadow-lg mb-4 w-20 h-20 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-xl cursor-pointer">
             <img src={assets.img_icon6_section2} alt="Montagne" className="w-12 h-12 object-contain" />
           </div>
           <p className="text-xs text-white text-center font-medium">Montagne</p>
