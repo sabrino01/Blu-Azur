@@ -16,7 +16,7 @@ const Activites = () => {
 
     return (
         <section
-            className="container mx-auto px-6 py-12 md:px-20 lg:px-32 w-full overflow-hidden"
+            className="container mx-auto px-6 py-12 md:px-20 lg:pl-28 lg:pr-0 w-full overflow-hidden"
             id="activites"
         >
             <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16 lg:gap-20 w-full">
@@ -55,17 +55,17 @@ const Activites = () => {
                             <img
                                 src={assets[imageOrder[0]]}
                                 alt="Appartement 1"
-                                className="rounded-xl shadow-lg w-[180px] md:w-[280px] lg:w-[300px] h-[320px] md:h-[450px] object-cover transition-all duration-500 hover:scale-105 animate-fade-in-right animation-delay-500"
+                                className="rounded-xl shadow-lg w-[180px] md:w-[220px] lg:w-[260px] h-[320px] md:h-[440px] object-cover transition-all duration-500 hover:scale-105 animate-fade-in-right animation-delay-500"
                             />
                             
-                            {/* Image 2 */}
+                            {/* Image 2  */}
                             <div className="relative">
                                 <img
                                     src={assets[imageOrder[1]]}
                                     alt="Appartement 2"
                                     className="rounded-xl shadow-lg w-[180px] md:w-[220px] lg:w-[260px] h-[280px] md:h-[320px] object-cover transition-all duration-500 hover:scale-105 animate-fade-in-right animation-delay-700"
                                     style={{ 
-                                        clipPath: 'inset(0 40% 0 0)',
+                                        clipPath: 'inset(0 50% 0 0)',
                                     }}
                                 />
                                 
