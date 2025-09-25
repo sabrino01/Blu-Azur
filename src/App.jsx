@@ -4,6 +4,7 @@ import Activites from './components/Activites'
 import Activites2 from './components/Activites2'
 import Localisation from './components/Localisation'
 import Apropos from './components/Apropos'
+import Activities3 from './components/Activities3'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Activites2 />
       <Localisation />
       <Apropos />
+      <Activities3 />
     </div>
   )
 }
