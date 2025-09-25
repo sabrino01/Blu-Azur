@@ -25,7 +25,7 @@ const Apropos2 = () => {
             </h2>
             
             {/* Email */}
-            <div className='flex items-center justify-center space-x-4 hover:transform hover:translate-x-2 transition-all duration-300 md:justify-center'>
+            <div className='flex items-center justify-center space-x-4 hover:transform hover:translate-x-2 transition-all duration-300 md:justify-center lg:justify-start'>
               <img 
                 src={assets.email_contact} 
                 alt="email" 
@@ -35,7 +35,7 @@ const Apropos2 = () => {
             </div>
             
             {/* Facebook */}
-            <div className='flex items-center justify-center space-x-4 hover:transform hover:translate-x-2 transition-all duration-300 md:justify-center'>
+            <div className='flex items-center justify-center space-x-4 hover:transform hover:translate-x-2 transition-all duration-300 md:justify-center lg:justify-start'>
               <img 
                 src={assets.facebook_contact} 
                 alt="facebook" 
@@ -45,7 +45,7 @@ const Apropos2 = () => {
             </div>
             
             {/* Téléphone */}
-            <div className='flex items-center justify-center space-x-4 hover:transform hover:translate-x-2 transition-all duration-300 md:justify-center'>
+            <div className='flex items-center justify-center space-x-4 hover:transform hover:translate-x-2 transition-all duration-300 md:justify-center lg:justify-start'>
               <img 
                 src={assets.phone_contact} 
                 alt="phone" 
