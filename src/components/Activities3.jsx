@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 const Activities3 = () => {
   return (
     <div 
-      className='relative w-full py-16 overflow-hidden bg-cover bg-center bg-no-repeat' 
+      className='relative w-full py-16 overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat' 
       id='activites'
       style={{
         backgroundImage: `url(${assets.background_section5})`

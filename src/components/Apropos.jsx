@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 const Apropos = () => {
   return (
     <div 
-      className='relative w-full overflow-hidden bg-cover bg-center bg-no-repeat' 
+      className='relative w-full overflow-hidden min-h-srceen bg-cover bg-center bg-no-repeat' 
       id='apropos'
       style={{
         backgroundImage: `url(${assets.background_section4})`

@@ -16,7 +16,7 @@ const Activites = () => {
 
     return (
         <section
-            className="container mx-auto px-6 py-12 md:px-20 lg:pl-28 lg:pr-0 w-full overflow-hidden"
+            className="container mx-auto px-6 py-12 md:px-20 lg:pl-28 lg:pr-0 min-h-screen w-full overflow-hidden"
             id="activites"
         >
             <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16 lg:gap-20 w-full">

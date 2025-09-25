@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 const Localisation = () => {
   return (
     <div 
-      className="w-full overflow-hidden bg-cover bg-center bg-no-repeat relative"
+      className="w-full overflow-hidden min-h-screen bg-cover bg-center bg-no-repeat relative"
       style={{ backgroundImage: `url(${assets.background_section3})` }}
       id="localisation">
 
