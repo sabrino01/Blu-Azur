@@ -16,16 +16,16 @@ const Activites = () => {
 
     return (
         <section
-            className="container mx-auto px-6 py-12 md:px-20 lg:pl-28 lg:pr-0 min-h-screen w-full overflow-hidden"
+            className="container mx-auto px-6 py-20 md:px-20 lg:pl-32 lg:pr-0 min-h-screen w-full overflow-hidden"
             id="activites"
         >
-            <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16 lg:gap-20 w-full">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-14 lg:gap-20 w-full">
                 {/* Gauche : Description */}
-                <div className="w-full md:w-1/2 flex flex-col items-start animate-fade-in-up duration-700">
-                    <h2 className="text-3xl md:text-[35px] font-semibold text-black inline-block animate-fade-in-up animation-delay-300">
+                <div className="w-full md:w-full lg:w-1/2 flex flex-col items-start animate-fade-in-up duration-700">
+                    <h2 className="text-3xl md:text-xl lg:text-[35px]  font-semibold text-black inline-block animate-fade-in-up animation-delay-300">
                         Le confort et la sérénité d'un
                     </h2>
-                    <h1 className="text-3xl md:text-[35px] font-semibold text-black animate-fade-in-up">
+                    <h1 className="text-3xl md:text-xl lg:text-[35px] font-semibold text-black animate-fade-in-up">
                         <strong>appartement privé</strong>
                     </h1>
                     <p
@@ -34,8 +34,8 @@ const Activites = () => {
                     >
                         Blu Azur vous propose des appartemets élégants et spacieux, conçus pour accueillir de 2 à 6 personnes. Offrant un cadre confortable et moderne, ils sont parfaits pour une escapade détente ou un séjour prolongé.
                     </p>
-                    <h4 className="text-sm md:text-sm text-black">Les inclusions :</h4>
-                    <ul className="list-disc pl-5 text-black text-xs md:text-sm animate-fade-in-up animation-delay-700 marker:text-blue-500 marker:text-xl">
+                    <h4 className="text-sm md:text-md lg:text-sm text-black">Les inclusions :</h4>
+                    <ul className="list-disc pl-5 text-black text-xs md:text-md lg:text-sm animate-fade-in-up animation-delay-700 marker:text-blue-500 marker:text-xl">
                         <li>Stationnement privé</li>
                         <li>Piscine extérieure avec chaises longues</li>
                         <li>Linge de lit et serviettes</li>
@@ -47,7 +47,7 @@ const Activites = () => {
                 </div>
 
                 {/* Droite : les 2 images */}
-                <div className="w-full md:w-1/2 relative h-full flex items-center">
+                <div className="w-full md:w-full lg:w-1/2 relative h-full flex items-center">
                     {/* Container des images */}
                     <div className="relative flex items-center justify-end overflow-hidden">
                         <div className="flex gap-2 md:gap-4 transition-all duration-500 ease-in-out relative ml-auto items-center">

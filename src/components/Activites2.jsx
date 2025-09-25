@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 const Activites2 = () => {
   return (
     <div 
-      className="flex flex-col items-center w-full overflow-hidden min-h-screen relative p-14 md:px-20 lg:px-32"
+      className="flex flex-col items-center w-full overflow-hidden min-h-screen relative p-14 py-20 md:px-20 lg:px-32"
       id="activites"
       style={{
         backgroundImage: `url(${assets.background_section2})`,

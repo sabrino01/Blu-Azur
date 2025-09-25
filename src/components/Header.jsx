@@ -21,7 +21,7 @@ const Header = () => {
       
       <div className='container mx-auto my-auto'>
       {/* Contenu après navbar */}
-      <div className='flex-1 pl-6 md:pl-8 lg:pl-24 justify-center pt-20 md:pt-24 relative z-10 mt-20 mb-10'>
+      <div className='flex-1 px-6 md:px-20 lg:px-24 justify-center pt-20 md:pt-24 relative z-10 mt-20 mb-10'>
         <div className='text-start max-w-4xl mb-30'>
           <h1 className='text-3xl md:text-[35px] font-semibold text-white drop-shadow-lg animate-fade-in-up'>
             <strong>Votre évasion</strong>
@@ -39,7 +39,7 @@ const Header = () => {
         {/* Footer containers améliorés */}
         <div className='flex flex-col md:flex-row justify-between items-center w-full gap-8'>
           {/* Container gauche - Bouton avec animation */}
-          <div className='flex-shrink-0'>
+          <div className='flex-shrink-0 md:px-0 lg:px-0'>
             <button
               className='group border-2 border-white bg-transparent text-white px-6 py-3 rounded-full flex items-center gap-3 transition-all duration-300 hover:bg-white hover:text-black hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2'
               aria-label='Réservez dès maintenant votre séjour !'
@@ -57,8 +57,8 @@ const Header = () => {
           <div className='relative flex items-center justify-center md:justify-end gap-4'>
             {/* Images container */}
             <div className='flex items-center gap-2'>
-              {/* Image principale (visible) */}
-              <div className='relative w-48 h-24 md:w-[90%] md:h-40 rounded-lg overflow-hidden transition-all duration-500 mb-4 md:mb-4'>
+              {/* Image principale */}
+              <div className='relative w-48 h-24 md:w-48 md:h-40 lg:w-52 rounded-lg overflow-hidden transition-all duration-500 mb-4 md:mb-4'>
                 <img 
                   src={images[currentImage]} 
                   alt={`Header image ${currentImage + 1}`} 
@@ -67,7 +67,7 @@ const Header = () => {
                 />
               </div>
               {/* Image secondaire */}
-              <div className='relative w-48 h-24 md:w-[48%] md:h-32 rounded-lg overflow-hidden opacity-70 transition-all duration-500 md:overflow-visible mb-4 md:mb-4'>
+              <div className='relative w-48 h-24 md:w-20 md:h-32 lg:w-20 rounded-lg overflow-hidden opacity-70 transition-all duration-500 md:overflow-visible mb-4 md:mb-4'>
                 <img 
                   src={images[(currentImage + 1) % images.length]} 
                   alt={`Header image ${((currentImage + 1) % images.length) + 1}`} 

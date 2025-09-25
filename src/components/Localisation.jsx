@@ -9,7 +9,7 @@ const Localisation = () => {
       id="localisation">
 
       <div className="absolute inset-0 bg-white bg-opacity-20"></div>
-      <div className="relative z-10 container mx-auto px-4 py-16 lg:px-32">
+      <div className="relative z-10 container mx-auto px-4 py-20 lg:px-32">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16 min-h-[70vh]">
           {/* Container de gauche - Textes et description */}
           <div className="flex-1 flex flex-col justify-center items-start lg:items-start text-center lg:text-left space-y-6 animate-fade-in-left">

@@ -13,7 +13,7 @@ const Apropos = () => {
       <div className="absolute inset-0 bg-black/30"></div>
       
       {/* Contenu principal */}
-      <div className='relative z-10 container mx-auto px-6 py-12 md:px-20 lg:px-32 flex items-center'>
+      <div className='relative z-10 container mx-auto px-6 py-20 md:px-20 lg:px-32 flex items-center'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center w-full'>
           
           {/* Section image à gauche */}
@@ -30,7 +30,7 @@ const Apropos = () => {
           </div>
 
           {/* Section texte à droite */}
-          <div className='text-right lg:text-right order-1 lg:order-2 space-y-4'>
+          <div className='text-right md:text-center lg:text-right order-1 lg:order-2 space-y-4'>
             <div className='space-y-2'>
               <h2 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-white mb-2 animate-fade-in-up animation-delay-300">
                 Un point de départ idéal
@@ -40,8 +40,8 @@ const Apropos = () => {
               </h1>
             </div>
             
-            <div className='max-w-md ml-auto'>
-              <p className="text-sm md:text-sm text-white leading-relaxed animate-fade-in-up animation-delay-700 text-justify lg:text-sm backdrop-blur-sm">
+            <div className='max-w-md ml-auto md:mx-auto lg:ml-auto lg:max-w-lg'>
+              <p className="text-sm md:text-sm text-white leading-relaxed animate-fade-in-up animation-delay-700 text-justify te lg:text-sm backdrop-blur-sm">
                 Entre mer et montagne, Saint-Raphaël est une destination idéale pour les amateurs de plein air et de découvertes. Randonnées dans le Massif de l'Estérel, sports nautiques sur les eaux cristallines de la Méditerranée, balades en bateau vers les îles de Lérins ou encore golf et cyclisme sur des parcours panoramiques, chaque journée offre son lot d'aventures. Entre marchés provençaux, villages perchés et animations locales, l'art de vivre azuréen se dévoile à chaque instant, faisant de Saint-Raphaël un lieu vibrant et inoubliable.
               </p>
             </div>
