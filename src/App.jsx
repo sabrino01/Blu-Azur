@@ -7,6 +7,7 @@ import Apropos from './components/Apropos'
 import Activities3 from './components/Activities3'
 import Reserve from './components/Reserve'
 import Apropos2 from './components/Apropos2'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Activities3 />
       <Reserve />
       <Apropos2 />
+      <Footer />
     </div>
   )
 }
