@@ -14,7 +14,7 @@ const Header = () => {
     <div
       className='relative min-h-screen mb-4 bg-cover bg-center flex flex-col w-full overflow-hidden'
       style={{ backgroundImage: "url('/background-header.png')" }}
-      id='Header'
+      id='reserve'
     >
       <div className='absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent pointer-events-none'></div>
       <Navbar />
